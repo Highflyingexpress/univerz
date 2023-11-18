@@ -1,7 +1,6 @@
 import { styled } from "@mui/material/styles";
 
 import { TextField } from "@mui/material";
-import SearchIcon from "@mui/icons-material/Search";
 
 const SearchFieldRoot = styled("div")(({ theme }) => ({
   position: "relative",
@@ -10,16 +9,6 @@ const SearchFieldRoot = styled("div")(({ theme }) => ({
     marginLeft: theme.spacing(1),
     width: "auto",
   },
-}));
-
-const SearchIconWrapper = styled("div")(({ theme }) => ({
-  padding: theme.spacing(0, 2),
-  height: "100%",
-  position: "absolute",
-  pointerEvents: "none",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
 }));
 
 const StyledTextField = styled(TextField)(({ theme }) => ({
