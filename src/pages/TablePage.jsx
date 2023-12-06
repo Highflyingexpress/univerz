@@ -18,6 +18,7 @@ import Table from "../components/Table";
 import { Box } from "@mui/material";
 import SearchSection from "./TablePage/SearchSection";
 import CurcularLoader from "../components/CurcularLoader";
+// mind of reselector
 
 const TablePageRoot = styled(Box)({
   marginTop: "20px",
